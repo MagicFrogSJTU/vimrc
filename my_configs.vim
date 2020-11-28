@@ -14,3 +14,7 @@ map g6 :tabnext 6<cr>
 map g7 :tabnext 7<cr>
 map g8 :tabnext 8<cr>
 map g9 :tabnext 9<cr>
+
+
+au FileType python map <buffer> <F8> :w<cr>:!python %<cr>
+au FileType python unmap <buffer> F
