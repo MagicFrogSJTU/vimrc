@@ -1,5 +1,6 @@
-map <leader>c1 :!leetcode submit %<cr>
-map <leader>c2 :!g++ -std=c++11 % && ./a.out<cr>
+map <leader>c1 :w<cr>:!leetcode submit %<cr>
+map <leader>c2 :!leetcode show % --solution<cr>
+map <leader>c3 :w<cr>:!g++ -std=c++11 % && ./a.out<cr>
 
 
 nnoremap <SPACE> <Nop>
