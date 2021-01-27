@@ -25,3 +25,6 @@ au FileType python unmap <buffer> F
 
 set relativenumber
 set number
+
+"用来对抗smart indent https://stackoverflow.com/questions/2360249/vim-automatically-removes-indentation-on-python-comments
+inoremap # X<BS>#
